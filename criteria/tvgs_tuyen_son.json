@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "name": "Tiêu chí dự án: Tuyên Sơn (Đà Nẵng)",
+    "version": "1.0",
+    "description": "Criteria riêng cho dự án 39 tầng tại Đà Nẵng. Kế thừa tvgs_chung.json. Đặc biệt: công trình cấp I, cao tầng — yêu cầu quan trắc lún/nghiêng BẮT BUỘC.",
+    "extends": "tvgs_chung.json",
+    "created": "2026-04-01",
+    "updated_by": "Hoàng Đức Vũ + Claude"
+  },
+
+  "du_an": {
+    "ten_cong_trinh": "Tuyên Sơn",
+    "ten_viet_tat": "TS",
+    "dia_diem": "Đà Nẵng",
+    "chu_dau_tu": "(cần bổ sung)",
+    "loai_cong_trinh": "Dân dụng - Nhà cao tầng",
+    "cap_cong_trinh": "Cấp I",
+    "so_tang": 39,
+    "pham_vi_tvgs": "TEXO giám sát thi công xây dựng",
+    "nha_thau_thi_cong": ["(cần bổ sung)"],
+    "thoi_gian_hop_dong": {
+      "tu": "(cần bổ sung)",
+      "den": "(cần bổ sung)"
+    }
+  },
+
+  "muc_1": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "39 tầng → cấp I: đã ghi rõ cấp công trình chưa?",
+        "Có liệt kê đủ hạng mục con (phần ngầm, thân, hoàn thiện, M&E) không?"
+      ],
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Mục 1 quá sơ sài, thiếu chi tiết quy mô và hạng mục con"
+      ]
+    }
+  },
+
+  "muc_4": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "Nhà 39 tầng cấp I: có đề cập bê tông cường độ cao không?",
+        "Có thí nghiệm đối chứng bê tông không? (BẮT BUỘC với CT cấp I)"
+      ],
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Mục 4 ghi chung chung 'đảm bảo yêu cầu' — thiếu tên PTN, thiếu loại vật liệu cụ thể"
+      ]
+    }
+  },
+
+  "muc_5": {
+    "_canh_bao": "ĐÂY LÀ MỤC NGHIÊM TRỌNG NHẤT — Công trình cấp I, 39 tầng BẮT BUỘC quan trắc lún/nghiêng",
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "39 tầng cấp I: BẮT BUỘC quan trắc lún/nghiêng — đã nêu chưa?",
+        "Ai thực hiện quan trắc? Đề cương do ai lập? CĐT đã phê duyệt chưa?",
+        "Kết quả quan trắc ở đâu? (TVGS KHÔNG được tự đưa kết quả vào — chỉ xác nhận nhà thầu QT đã thực hiện)"
+      ],
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Mục 5 THIẾU HOÀN TOÀN nội dung quan trắc — lỗi nghiêm trọng nhất của báo cáo"
+      ]
+    },
+    "ghi_de": {
+      "loi_thuong_gap": [
+        "Ghi 'Không' mà không giải thích — ĐẶC BIỆT NGHIÊM TRỌNG vì CT cấp I bắt buộc quan trắc",
+        "TVGS tự đưa kết quả quan trắc cụ thể vào báo cáo — vượt phạm vi"
+      ]
+    }
+  },
+
+  "muc_6": {
+    "bo_sung": {
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Mục 6 thiếu bảng kiểm tra hồ sơ nghiệm thu"
+      ]
+    }
+  },
+
+  "muc_10": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "Nhà 39 tầng tại Đà Nẵng: có GPXD không? Hay thuộc diện miễn phép (khu công nghiệp, dự án đầu tư)?",
+        "Có thẩm duyệt PCCC riêng cho công trình cao tầng không? (thường bắt buộc)",
+        "Bể nước PCCC/hệ thống chữa cháy tầng cao: có thi công đúng thiết kế được thẩm duyệt không?"
+      ],
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Mục 10 thiếu số văn bản ĐGTĐMT, PCCC cụ thể"
+      ]
+    }
+  },
+
+  "muc_12": {
+    "bo_sung": {
+      "loi_thuong_gap": [
+        "File Tuyên Sơn: Kết luận quá ngắn, thiếu thời gian hợp đồng, thiếu tên hạng mục cụ thể"
+      ]
+    }
+  }
+}

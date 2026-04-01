@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "name": "Tiêu chí dự án: Khách sạn dân tộc",
+    "version": "1.0",
+    "description": "Criteria riêng cho dự án Khách sạn dân tộc. Kế thừa tvgs_chung.json, bổ sung đặc thù dự án.",
+    "extends": "tvgs_chung.json",
+    "created": "2026-04-01",
+    "updated_by": "Hoàng Đức Vũ + Claude"
+  },
+
+  "du_an": {
+    "ten_cong_trinh": "Khách sạn dân tộc",
+    "ten_viet_tat": "KSDT",
+    "dia_diem": "(cần bổ sung)",
+    "chu_dau_tu": "(cần bổ sung)",
+    "loai_cong_trinh": "Dân dụng - Khách sạn",
+    "cap_cong_trinh": "(cần bổ sung)",
+    "pham_vi_tvgs": "TEXO giám sát thi công xây dựng (phần kết cấu, hoàn thiện)",
+    "nha_thau_thi_cong": ["(cần bổ sung)"],
+    "thoi_gian_hop_dong": {
+      "tu": "(cần bổ sung)",
+      "den": "2026-03-16"
+    }
+  },
+
+  "muc_1": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "Có liệt kê đầy đủ hạng mục con TEXO giám sát (kết cấu, hoàn thiện, M&E nếu có) không?",
+        "Mục 1b đã đánh giá phù hợp cho TẤT CẢ hạng mục trong phạm vi TVGS chưa, hay chỉ đánh giá 1 hạng mục?"
+      ],
+      "loi_thuong_gap": [
+        "File Loi: Mục 1b chỉ đánh giá phần kết cấu, bỏ qua hoàn thiện — phạm vi bị thu hẹp so với hợp đồng",
+        "File Loi: Liệt kê hạng mục chung chung, thiếu chi tiết hạng mục con"
+      ]
+    }
+  },
+
+  "muc_2": {
+    "bo_sung": {
+      "loi_thuong_gap": [
+        "File Loi: Thiếu bảng kiểm tra chi tiết năng lực nhà thầu (Phụ lục I)"
+      ]
+    }
+  },
+
+  "muc_3": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "TEXO chỉ giám sát một phần — bảng tiến độ có ghi rõ 'một phần hoàn thiện' không?"
+      ],
+      "loi_thuong_gap": [
+        "File Loi: Ghi chung 'hoàn thành' mà không xác định rõ phạm vi TVGS chỉ một phần",
+        "File Loi: Thiếu chi tiết hạng mục đã nghiệm thu, gộp tất cả thành 1 câu"
+      ]
+    }
+  },
+
+  "muc_6": {
+    "bo_sung": {
+      "loi_thuong_gap": [
+        "File Loi: Nhầm 'theo quy định thiết kế được duyệt' thành 'theo biện pháp thi công được phê duyệt'"
+      ]
+    }
+  },
+
+  "muc_10": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [
+        "Khách sạn dân tộc có văn bản ĐGTĐMT/xác nhận MT cụ thể không? Số bao nhiêu?",
+        "Có văn bản thẩm duyệt PCCC cụ thể không? Số bao nhiêu?"
+      ]
+    }
+  },
+
+  "muc_12": {
+    "bo_sung": {
+      "loi_thuong_gap": [
+        "File Loi: Thiếu khoảng thời gian hợp đồng trong phần kết luận",
+        "File Loi: Liệt kê tên hạng mục 2 lần trong cùng đoạn kết luận"
+      ]
+    }
+  }
+}

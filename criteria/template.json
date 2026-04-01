@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "name": "Tiêu chí dự án: [TÊN DỰ ÁN]",
+    "version": "1.0",
+    "description": "File tiêu chí riêng cho dự án [TÊN]. Kế thừa tvgs_chung.json, chỉ bổ sung hoặc ghi đè phần khác biệt.",
+    "extends": "tvgs_chung.json",
+    "created": "YYYY-MM-DD",
+    "updated_by": "[Tên người tạo]"
+  },
+
+  "_huong_dan": {
+    "cach_dung": [
+      "1. Copy file này thành tên mới, ví dụ: tvgs_[ten_du_an].json",
+      "2. Điền thông tin dự án vào mục 'du_an'",
+      "3. Ở mỗi mục (muc_1 → muc_12), CHỈ thêm phần riêng cho dự án này",
+      "4. Không cần lặp lại nội dung đã có trong tvgs_chung.json",
+      "5. Dùng 'bo_sung' để THÊM, dùng 'ghi_de' để THAY THẾ tiêu chí chung"
+    ],
+    "vi_du_ghi_de": "Nếu dự án đặc biệt không cần quan trắc lún (mục 5), thêm ghi_de cho cau_hoi_tu_duy",
+    "vi_du_bo_sung": "Nếu dự án có hệ thống M&E phức tạp, bổ sung câu hỏi tư duy cho mục 4"
+  },
+
+  "du_an": {
+    "ten_cong_trinh": "[Tên đầy đủ]",
+    "ten_viet_tat": "[Viết tắt]",
+    "dia_diem": "[Địa điểm]",
+    "chu_dau_tu": "[Tên CĐT]",
+    "loai_cong_trinh": "[Dân dụng / Công nghiệp / Hạ tầng / ...]",
+    "cap_cong_trinh": "[Đặc biệt / Cấp I / Cấp II / Cấp III / Cấp IV]",
+    "pham_vi_tvgs": "[Mô tả ngắn phạm vi TEXO giám sát]",
+    "nha_thau_thi_cong": ["[Nhà thầu 1]", "[Nhà thầu 2]"],
+    "thoi_gian_hop_dong": {
+      "tu": "YYYY-MM-DD",
+      "den": "YYYY-MM-DD"
+    }
+  },
+
+  "muc_1": {
+    "_note": "Chỉ thêm phần RIÊNG cho dự án này. Phần chung đã có trong tvgs_chung.json",
+    "bo_sung": {
+      "tu_khoa_bat_buoc": [],
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_2": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_3": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_4": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_5": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_6": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_7": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_8": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_9": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_10": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_11": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  },
+
+  "muc_12": {
+    "bo_sung": {
+      "cau_hoi_tu_duy": [],
+      "loi_thuong_gap": []
+    }
+  }
+}
